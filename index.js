@@ -5,7 +5,7 @@ let pathLength = helloline.getTotalLength();
 helloline.setAttribute("stroke-dasharray", pathLength);
 helloline.setAttribute("stroke-dashoffset", pathLength);
 console.log(helloline.innerHTML)
-helloline.innerHTML = `<animate attributeName="stroke-dashoffset" begin='0s' dur="3s" to="0" fill="freeze" />`;
+helloline.innerHTML = `<animate attributeName="stroke-dashoffset" begin='1s' dur="3s" to="0" fill="freeze" />`;
 
 // var vara = new Vara("#helloline", "PacificoSLO.json", [{
 //     text: "hello",
